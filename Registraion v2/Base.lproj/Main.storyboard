@@ -20,6 +20,9 @@
                                 <rect key="frame" x="153" y="484" width="87" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Register"/>
+                                <connections>
+                                    <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cTZ-N1-bIJ"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome, new user!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9KD-na-5td">
                                 <rect key="frame" x="119" y="249" width="154" height="21"/>
@@ -63,6 +66,9 @@
                             <constraint firstItem="xgy-YV-cLR" firstAttribute="top" secondItem="NuU-Z7-Mhj" secondAttribute="bottom" constant="22" id="pTG-Sd-xK2"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="9KD-na-5td" id="xXX-kW-nH7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
